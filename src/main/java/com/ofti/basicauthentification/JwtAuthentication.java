@@ -12,15 +12,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+
 
 @SpringBootApplication
-public class BasicAuthentificationApplication {
+public class JwtAuthentication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BasicAuthentificationApplication.class, args);
+        SpringApplication.run(JwtAuthentication.class, args);
     }
 
     @Bean

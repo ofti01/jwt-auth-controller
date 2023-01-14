@@ -1,2 +1,15 @@
-package com.ofti.basicauthentification.auth;public class AuthenticationResponse {
+package com.ofti.basicauthentification.auth;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthenticationResponse {
+
+    private String token;
 }
